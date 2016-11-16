@@ -24,7 +24,7 @@
        id="selected_bg_color"
        osb:paint="solid">
       <stop
-         style="stop-color:#5294e2;stop-opacity:1;"
+         style="stop-color:#245361;stop-opacity:1;"
          offset="0"
          id="stop4138" />
     </linearGradient>
@@ -45,8 +45,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.839192"
-     inkscape:cx="0.58833524"
+     inkscape:zoom="15.760938"
+     inkscape:cx="-2.8101516"
      inkscape:cy="24.231157"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -55,7 +55,12 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true">
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:window-width="3200"
+     inkscape:window-height="1690"
+     inkscape:window-x="0"
+     inkscape:window-y="54"
+     inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
        id="grid7177" />

@@ -94,7 +94,7 @@
        id="selected_bg_color"
        osb:paint="solid">
       <stop
-         style="stop-color:#5294e2;stop-opacity:1;"
+         style="stop-color:#245361;stop-opacity:1;"
          offset="0"
          id="stop5012" />
     </linearGradient>
@@ -972,17 +972,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142135"
-     inkscape:cx="205.16573"
+     inkscape:zoom="7.9604752"
+     inkscape:cx="167.10268"
      inkscape:cy="193.28696"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      showborder="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="720"
+     inkscape:window-width="3200"
+     inkscape:window-height="1690"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="54"
      inkscape:window-maximized="1"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"

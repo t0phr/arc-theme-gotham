@@ -21,22 +21,22 @@
 <!-- window button colors -->
 
 <!-- close -->
-<constant name="C_button_close_bg_focused" value="#f46067" />
-<constant name="C_button_close_bg_hover" value="#f68086" />
-<constant name="C_button_close_bg_active" value="#f13039" />
+<constant name="C_button_close_bg_focused" value="#26a98b" />
+<constant name="C_button_close_bg_hover" value="#26a9a1" />
+<constant name="C_button_close_bg_active" value="#21947a" />
 
 <constant name="C_icon_close_bg" value="#F8F8F9" />
 
 <!-- minimize, maximize -->
 <constant name="C_button_bg_hover" value="#fdfdfd" />
-<constant name="C_button_bg_active" value="#5294e2" />
+<constant name="C_button_bg_active" value="#245361" />
 
 <constant name="C_button_border_hover" value="#D1D3DA" />
 
 <constant name="C_icon_bg_focused" value="#90949E" />
 <constant name="C_icon_bg_unfocused" value="#B6B8C0" />
 <constant name="C_icon_bg_hover" value="#7A7F8B" />
-<constant name="C_icon_bg_active" value="#5294e2" />
+<constant name="C_icon_bg_active" value="#245361" />
 
 <!-- geometries -->
 
@@ -61,7 +61,7 @@
 	<distance name="bottom_height" value="0" />
 	<distance name="left_titlebar_edge" value="0"/>
 	<distance name="right_titlebar_edge" value="0"/>
-	<distance name="title_vertical_pad" value="2"/> <!-- 
+	<distance name="title_vertical_pad" value="2"/> <!--
 							This needs to be 1 less then the
 							title_vertical_pad on normal state
 							or you'll have bigger buttons		-->

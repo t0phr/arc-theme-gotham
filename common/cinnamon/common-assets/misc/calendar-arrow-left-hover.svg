@@ -35,7 +35,7 @@
      bordercolor="#666666"
      borderopacity="1"
      inkscape:current-layer="layer12"
-     inkscape:cx="6.1613659"
+     inkscape:cx="3.7824251"
      inkscape:cy="7.9323223"
      gridtolerance="10"
      inkscape:guide-bbox="true"
@@ -57,12 +57,12 @@
      inkscape:snap-nodes="true"
      inkscape:snap-others="false"
      inkscape:snap-to-guides="true"
-     inkscape:window-height="720"
+     inkscape:window-height="1690"
      inkscape:window-maximized="1"
-     inkscape:window-width="1366"
+     inkscape:window-width="3200"
      inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:zoom="22.627417"
+     inkscape:window-y="54"
+     inkscape:zoom="127.36761"
      inkscape:snap-bbox-edge-midpoints="true">
     <inkscape:grid
        empspacing="2"
@@ -99,7 +99,7 @@
        id="selected_bg_color"
        osb:paint="solid">
       <stop
-         style="stop-color:#5294e2;stop-opacity:1;"
+         style="stop-color:#245361;stop-opacity:1;"
          offset="0"
          id="stop4147" />
     </linearGradient>

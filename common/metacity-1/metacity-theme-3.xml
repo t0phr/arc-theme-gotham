@@ -21,15 +21,15 @@
 <!-- window button colors -->
 
 <!-- close -->
-<constant name="C_button_close_bg_focused" value="gtk:custom(wm_button_close_bg,#f46067)" />
-<constant name="C_button_close_bg_hover" value="gtk:custom(wm_button_close_hover_bg,#f68086)" />
-<constant name="C_button_close_bg_active" value="gtk:custom(wm_button_close_active_bg,#f13039)" />
+<constant name="C_button_close_bg_focused" value="gtk:custom(wm_button_close_bg,#26a98b)" />
+<constant name="C_button_close_bg_hover" value="gtk:custom(wm_button_close_hover_bg,#26a9a1)" />
+<constant name="C_button_close_bg_active" value="gtk:custom(wm_button_close_active_bg,#21947a)" />
 
 <constant name="C_icon_close_bg" value="gtk:custom(wm_icon_close_bg,#F8F8F9)" />
 
 <!-- minimize, maximize -->
 <constant name="C_button_bg_hover" value="gtk:custom(wm_button_hover_bg,#fdfdfd)" />
-<constant name="C_button_bg_active" value="gtk:custom(wm_button_active_bg,#5294E2)" />
+<constant name="C_button_bg_active" value="gtk:custom(wm_button_active_bg,#245361)" />
 
 <constant name="C_button_border_hover" value="gtk:custom(wm_button_hover_border,#D1D3DA)" />
 
@@ -61,7 +61,7 @@
 	<distance name="right_width" value="0" />
 	<distance name="left_titlebar_edge" value="0"/>
 	<distance name="right_titlebar_edge" value="0"/>
-	<distance name="title_vertical_pad" value="2"/> <!-- 
+	<distance name="title_vertical_pad" value="2"/> <!--
 							This needs to be 1 less then the
 							title_vertical_pad on normal state
 							or you'll have bigger buttons		-->

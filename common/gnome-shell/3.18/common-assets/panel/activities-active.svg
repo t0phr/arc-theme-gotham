@@ -31,18 +31,18 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.627417"
-     inkscape:cx="4.4779162"
+     inkscape:zoom="127.36761"
+     inkscape:cx="2.0989754"
      inkscape:cy="11.459165"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="true"
-     inkscape:window-width="1600"
-     inkscape:window-height="848"
+     inkscape:window-width="3200"
+     inkscape:window-height="1690"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="54"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -83,7 +83,7 @@
        id="selected_bg_color"
        osb:paint="solid">
       <stop
-         style="stop-color:#5294e2;stop-opacity:1;"
+         style="stop-color:#245361;stop-opacity:1;"
          offset="0"
          id="stop4140" />
     </linearGradient>
@@ -174,5 +174,12 @@
        height="2"
        x="17"
        y="287" />
+    <rect
+       y="287"
+       x="5"
+       height="2"
+       width="2"
+       id="rect4141"
+       style="opacity:1;fill:url(#linearGradient4142);fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   </g>
 </svg>

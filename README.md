@@ -1,20 +1,20 @@
-# Arc Theme
+# Arc Theme Gotham
 
-Arc is a flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
+Arc is a flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc. This theme is a fork of the original Arc Theme project created by horst3180. Gotham is a very dark theme that is based off the Gotham Vim project by whatyouhide.
 
-###Arc is available in three variants 
+###Arc is available in three variants
 
 #####Arc
 
-![A screenshot of the Arc theme](http://i.imgur.com/Ph5ObOa.png)
+![A screenshot of the Arc theme](http://i.imgur.com/AqEJ2oV.png)
 
 #####Arc-Darker
 
-![A screenshot of the Arc-Darker theme](http://i.imgur.com/NC6dqyl.png)
+![A screenshot of the Arc-Darker theme](http://i.imgur.com/fjRAobi.png)
 
-#####Arc-Dark
+#####Arc-Dark (Recommended)
 
-![A screenshot of the Arc-Dark theme](http://i.imgur.com/5AGlCnA.png)
+![A screenshot of the Arc-Dark theme](http://i.imgur.com/qbfCnHo.png)
 
 
 ### Requirements
@@ -62,7 +62,7 @@ http://software.opensuse.org/download.html?project=home%3AHorst3180&package=arc-
 
 --
 
-Arch Linux users can install the official releases directly from pacman in the Community repo and development releases in the AUR 
+Arch Linux users can install the official releases directly from pacman in the Community repo and development releases in the AUR
 
 **Official Releases**: [arc-gtk-theme](https://www.archlinux.org/packages/community/any/arc-gtk-theme/)
 
@@ -78,7 +78,7 @@ Gentoo/Funtoo users can install `x11-themes/arc-theme` from the [Scriptkitties O
 
 #### Manual Installation
 
-To build the theme you'll need 
+To build the theme you'll need
 * `autoconf`
 * `automake`
 * `pkg-config` or `pkgconfig` if you use Fedora
@@ -167,8 +167,8 @@ If you find a bug, please report it at https://github.com/horst3180/arc-theme/is
 Arc is available under the terms the GPL-3.0. See `COPYING` for details.
 
 ### Full Preview
-![A full screenshot of the Arc theme](http://i.imgur.com/tD1OBQ3.png)
-<sub>Screenshot Details: Icons: [Arc](https://github.com/horst3180/arc-icon-theme) | Launcher Icons based on [White Pixel Icons](http://darkdawg.deviantart.com/art/White-Pixel-Icons-252310560) | [Wallpaper](https://pixabay.com/photo-869593/) | Font: Futura Bk bt</sub>
+![A full screenshot of the Arc Gotham theme](http://i.imgur.com/bNaPB1b.png)
+<sub>Screenshot Details: Icons: [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle) | Font: Fira Sans</sub>
 
 
 [sk-overlay]: https://c.darenet.org/scriptkitties/overlay
