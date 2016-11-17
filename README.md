@@ -50,32 +50,6 @@ If your distribution isn't listed, please check the requirements yourself.
     rm -rf ~/.local/share/themes/{Arc,Arc-Darker,Arc-Dark}
     rm -rf ~/.themes/{Arc,Arc-Darker,Arc-Dark}
 
-#### Packages
-
-Prebuilt packages for Ubuntu, Debian, Fedora and openSUSE are available at  
-http://software.opensuse.org/download.html?project=home%3AHorst3180&package=arc-theme  
-
-A non-transparent version of the theme is available here  
-http://software.opensuse.org/download.html?project=home%3AHorst3180&package=arc-theme-solid  
-
-**Note:** elementary OS Freya users can install the package for Ubuntu 15.04, Loki user can install the package for Ubuntu 16.04
-
---
-
-Arch Linux users can install the official releases directly from pacman in the Community repo and development releases in the AUR
-
-**Official Releases**: [arc-gtk-theme](https://www.archlinux.org/packages/community/any/arc-gtk-theme/)
-
-**Development Releases (AUR)**: [gtk-theme-arc-git](https://aur.archlinux.org/packages/gtk-theme-arc-git/)
-
-**Note:** If you're having trouble with the AUR packages please email the package maintainer at zach@zach-adams.com before creating an issue.
-
---
-
-Gentoo/Funtoo users can install `x11-themes/arc-theme` from the [Scriptkitties Overlay][sk-overlay].
-
---
-
 #### Manual Installation
 
 To build the theme you'll need
@@ -93,7 +67,7 @@ Install the theme with the following commands
 
 If you want to install the latest version from git, clone the repository with
 
-    git clone https://github.com/horst3180/arc-theme --depth 1 && cd arc-theme
+    git clone https://github.com/9sevendesign/arc-theme-gotham.git --depth 1 && cd arc-theme-gotham
 
 **2. Build and install the theme**
 
@@ -132,21 +106,12 @@ from the same directory as this README resides in, or
 
 ### Extras
 
-#### Arc Firefox theme
-A theme for Firefox is available at https://github.com/horst3180/arc-firefox-theme
-
-#### Arc icon theme
-The Arc icon theme is available at https://github.com/horst3180/arc-icon-theme
-
-#### Chrome/Chromium theme
+#### Chrome/Chromium theme (Gotham version in progress)
 To install the Chrome/Chromium theme go to the `extra/Chrome` folder and drag and drop the arc-theme.crx or arc-dark-theme.crx file into the Chrome/Chromium window. The source of the Chrome themes is located in the source "Chrome/arc-theme" folder.
 
-#### Plank theme
+#### Plank theme (Gotham version in progress)
 To install the Plank theme, copy the `extra/Arc-Plank` folder to `~/.local/share/plank/themes` or to `/usr/share/plank/themes` for system-wide use.
 Now open the Plank preferences window by executing `plank --preferences` from a terminal and select `Arc-Plank` as the theme.
-
-#### Arc-Dark for Ubuntu Software Center
-The Arc Dark theme for the Ubuntu Software Center by [mervick](https://github.com/mervick) can be installed from [here](https://github.com/mervick/arc-dark-software-center). It solves readability issues with Arc Dark and the Ubuntu Software Center.
 
 ### Troubleshooting
 
@@ -161,7 +126,7 @@ If you get artifacts like black or invisible backgrounds under Unity, disable ov
 
 
 ### Bugs
-If you find a bug, please report it at https://github.com/horst3180/arc-theme/issues
+If you find a bug, please report it at https://github.com/9sevendesign/arc-theme-gotham/issues
 
 ### License
 Arc is available under the terms the GPL-3.0. See `COPYING` for details.
