@@ -2,17 +2,17 @@
 
 Arc is a flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc. This theme is a fork of the original Arc Theme project created by horst3180. Gotham is a very dark theme that is based off the Gotham Vim project by whatyouhide.
 
-###Arc is available in three variants
+### Arc is available in three variants
 
-#####Arc
+### Arc
 
 ![A screenshot of the Arc theme](http://i.imgur.com/AqEJ2oV.png)
 
-#####Arc-Darker
+### Arc-Darker
 
 ![A screenshot of the Arc-Darker theme](http://i.imgur.com/fjRAobi.png)
 
-#####Arc-Dark (Recommended)
+### Arc-Dark (Recommended)
 
 ![A screenshot of the Arc-Dark theme](http://i.imgur.com/qbfCnHo.png)
 
@@ -126,7 +126,7 @@ If you get artifacts like black or invisible backgrounds under Unity, disable ov
 
 
 ### Bugs
-If you find a bug, please report it at https://github.com/9sevendesign/arc-theme-gotham/issues
+If you find a bug, please report it at https://github.com/hjohnson02/arc-theme-gotham/issues
 
 ### License
 Arc is available under the terms the GPL-3.0. See `COPYING` for details.
