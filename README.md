@@ -67,7 +67,7 @@ Install the theme with the following commands
 
 If you want to install the latest version from git, clone the repository with
 
-    git clone https://github.com/9sevendesign/arc-theme-gotham.git --depth 1 && cd arc-theme-gotham
+    git clone https://github.com/hjohnson02/arc-theme-gotham.git --depth 1 && cd arc-theme-gotham
 
 **2. Build and install the theme**
 
