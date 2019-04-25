@@ -17,7 +17,7 @@
  * Inc., 51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
  */
 stage {
-  font-family: Futura Bk bt, Cantarell, Sans-Serif;
+  font-family: Fira Sans, Futura Bk bt, Cantarell, Sans-Serif;
   font-size: 9pt;
   color: #D3DAE3; }
 
@@ -118,18 +118,20 @@ StScrollBar {
       background-color: #245361; }
 
 .slider {
-  -slider-height: 4px;
-  -slider-background-color: #090d11;
-  -slider-border-color: transparent;
-  -slider-active-background-color: #245361;
-  -slider-active-border-color: transparent;
-  -slider-border-width: 0;
-  -slider-handle-radius: 0px;
-  height: 18px;
-  border: 0 solid transparent;
-  border-right-width: 1px;
-  border-left-width: 5px;
-  color: transparent; }
+  color: #D3DAE3;
+  height: 1em;
+  -barlevel-height: 0.4em;
+  -barlevel-background-color: #16212c;
+  -barlevel-border-color: transparent;
+  -barlevel-active-background-color: #245361;
+  -barlevel-active-border-color: #16333c;
+  -barlevel-overdrive-color: #26a98b;
+  -barlevel-overdrive-border-color: #1d7f69;
+  -barlevel-overdrive-separator-width: 0.2em;
+  -barlevel-border-width: 1px;
+  -slider-handle-radius: 8px;
+  -slider-handle-border-width: 1px;
+  -slider-handle-border-color: #16333c; }
   .popup-menu-item.selected .slider {
     -slider-background-color: rgba(0, 0, 0, 0.2);
     -slider-active-background-color: #ffffff; }
@@ -650,7 +652,11 @@ StScrollBar {
   background-gradient-direction: none;
   background-color: transparent;
   border-bottom-width: 0;
-  border-image: url("common-assets/panel/panel.svg") 1 1 1 1; }
+  border-image: url("common-assets/panel/panel.svg") 1 1 1 1;
+  /*  .clock-display > * > *:last-child {
+    color: $selected_bg_color;
+    margin-left: .3em;
+  } */ }
   #panel.dynamic-top-bar-white-btn {
     border-image: none; }
   #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {
@@ -676,6 +682,7 @@ StScrollBar {
     -minimum-hpadding: 6px;
     font-weight: bold;
     color: white;
+    background-color: rgba(0, 0, 0, 0.17);
     transition-duration: 100ms;
     border-bottom-width: 1px;
     border-color: transparent; }
@@ -721,9 +728,6 @@ StScrollBar {
     spacing: 0; }
   #panel .screencast-indicator {
     color: #FC4138; }
-  #panel .clock-display > * > *:last-child {
-    color: #245361;
-    margin-left: .3em; }
   #panel .popup-menu-arrow {
     width: 0; }
 
@@ -1092,19 +1096,21 @@ StScrollBar {
 
 .window-close {
   background-image: url("common-assets/misc/close.svg");
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
   background-size: 26px;
+  color: transparent;
   height: 26px;
   width: 26px; }
   .window-close:hover {
     background-image: url("common-assets/misc/close-hover.svg");
-    background-size: 26px;
-    height: 26px;
-    width: 26px; }
+    background-color: transparent;
+    color: transparent; }
   .window-close:active {
     background-image: url("common-assets/misc/close-active.svg");
-    background-size: 26px;
-    height: 26px;
-    width: 26px; }
+    background-color: transparent;
+    color: transparent; }
 
 .window-close {
   -shell-close-overlap: 11px; }
@@ -1457,12 +1463,16 @@ StScrollBar {
   .page-indicator .page-indicator-icon {
     width: 18px;
     height: 18px;
+    border: none;
     background-image: url(common-assets/misc/page-indicator-inactive.svg); }
   .page-indicator:hover .page-indicator-icon {
     background-image: url(common-assets/misc/page-indicator-hover.svg); }
   .page-indicator:active .page-indicator-icon {
+    background-color: transparent;
+    margin: 0px;
     background-image: url(common-assets/misc/page-indicator-active.svg); }
   .page-indicator:checked .page-indicator-icon, .page-indicator:checked:active {
+    background-color: transparent;
     background-image: url(common-assets/misc/page-indicator-checked.svg); }
 
 .app-well-app > .overview-icon.overview-icon-with-label,
